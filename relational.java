@@ -6,6 +6,9 @@ public class relational
             int  y = 7;
             
             boolean result = x < y;
+            
+            // <=, >=, ==, !=
+
         System.out.println(result);
         }
 }   
