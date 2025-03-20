@@ -7,11 +7,11 @@ public class switchstatement2
 
         result = switch (day)
         {
-            case "Saturday", "Sunday" ->  "6am ";
+            case "Saturday", "Sunday" : yield "6am ";
 
-            case "Monday" -> "8am";
+            case "Monday" : yield "8am";
 
-            default ->  "7am";
+            default : yield "7am";
         };
 
         System.out.println(result);
